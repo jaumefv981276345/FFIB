@@ -1,7 +1,7 @@
 DROP FUNCTION IF EXISTS tarjetes_vermelles;
 DELIMITER //
 
-CREATE FUNCTION tarjetes_vermelles(jugador smallint)
+CREATE FUNCTION tarjetes_vermelles(jugador smallint)   --donada una categoria, no un jugador
 returns smallint
 DETERMINISTIC
 READS SQL DATA
